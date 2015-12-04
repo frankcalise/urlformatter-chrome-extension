@@ -1,0 +1,18 @@
+{
+  "name": "URL Formatter",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Chrome extension to Chrome extension to string format a URL for quick editing (help ticket IDs and such)",
+  "homepage_url": "https://github.com/frankcalise/urlformatter-chrome-extension",
+  "author": {
+    "name": "Frank Calise"
+  },
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "browser_action": {
+    "default_title": "URL Formatter",
+    "default_popup": "src/popup/popup.html"
+  }
+}
